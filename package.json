@@ -1,0 +1,29 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "react-scripts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/forms": "^19.0.1",
+    "@angular/material": "^19.0.1",
+    "@angular/router": "^19.0.1",
+    "axios": "^1.7.8",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.2.4",
+    "vite": "^4.4.3"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

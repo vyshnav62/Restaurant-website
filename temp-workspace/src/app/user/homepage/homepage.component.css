@@ -1,0 +1,12 @@
+.categories {
+    display: flex;
+    gap: 20px;
+  }
+  .category-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+  }
+  

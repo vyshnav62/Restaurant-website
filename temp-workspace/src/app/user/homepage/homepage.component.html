@@ -1,0 +1,9 @@
+<h1>Welcome to Our Restaurant</h1>
+<h2>Explore Our Menu Categories</h2>
+<div class="categories">
+  <div *ngFor="let category of categories" class="category-card">
+    <h3>{{ category.name }}</h3>
+    <p>{{ category.description }}</p>
+    <button (click)="navigateToCategory(category.id)">View Dishes</button>
+  </div>
+</div>
